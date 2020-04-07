@@ -6,7 +6,7 @@
 }
 .ace_print-margin {
   width: 1px;
-  background: #101010           /* vertical line */
+  background: #151515           /* vertical line */
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #010101;
@@ -30,10 +30,10 @@
   border: 1px solid #404040
 }
 .ace_marker-layer .ace_active-line {
-  background: #2A2A2A
+  background: #151515
 }
 .ace_gutter-active-line {
-  background-color: #2A2A2A
+  background-color: #151515
 }
 .ace_marker-layer .ace_selected-word {
   border: 1px solid #454545
@@ -54,21 +54,21 @@
 .ace_constant.ace_character.ace_escape,
 .ace_constant.ace_other,
 .ace_support.ace_type {
-  color: #729FCF
+  color: #6666FF
 }
 .ace_constant.ace_character.ace_escape {
-  color: #519F50
+  color: #6666FF
 }
 .ace_constant.ace_language {
-  color: #8C3A67          /* logicals and console messages */
+  color: #B5B143          /* logicals and console messages */
 }
 .ace_constant.ace_library,
 .ace_string,
 .ace_support.ace_constant {
-  color: #6666FF          /* strings */
+  color: #B5B143          /* strings */
 }
 .ace_constant.ace_numeric {
-  color: #66FFFF          /* numeric */
+  color: #A61B95          /* numeric */
 }
 .ace_invalid {
   color: #FFFFFF;
@@ -80,7 +80,7 @@
 }
 .ace_comment {
   font-style: italic;
-  color: #B5B143          /* comments */
+  color: #6666FF          /* comments */
 }
 .ace_entity.ace_other.ace_attribute-name {
   color: #FFFF89
@@ -115,7 +115,7 @@
   background-color: #3F3E3D;
 }
 .ace_keyword.ace_operator {
-  color: #AAAAAA !important;
+  color: #0FF25E !important;
 }
 .terminal {
   background-color: #000000;
