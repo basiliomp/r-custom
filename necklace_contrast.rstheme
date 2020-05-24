@@ -2,21 +2,21 @@
 /* rs-theme-is-dark: TRUE */
 .ace_gutter {
   background: #000000;           /* main background */
-  color: #E6E1DC
+  color: #656565				/* line numbers */
 }
 .ace_print-margin {
   width: 1px;
-  background: #151515           /* vertical line */
+  background: #101010           /* vertical line */
 }
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #010101;
-  color: #E6E1DC
+  color: #E6E1DC /* basic text */
 }
 .ace_cursor {
   color: #FFFFFF
 }
 .ace_marker-layer .ace_selection {
-  background: #454545
+  background: #404040
 }
 .ace_selection.ace_start {
   box-shadow: 0 0 3px 0px #161616;
@@ -27,13 +27,14 @@
 }
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid #404040
+  border: 1px solid #E6E1DC;
+  font-weight: bold; 
 }
 .ace_marker-layer .ace_active-line {
-  background: #151515
+  background: #101010				/* active line highlight */
 }
 .ace_gutter-active-line {
-  background-color: #151515
+  background-color: #2A2A2A
 }
 .ace_marker-layer .ace_selected-word {
   border: 1px solid #454545
@@ -54,10 +55,10 @@
 .ace_constant.ace_character.ace_escape,
 .ace_constant.ace_other,
 .ace_support.ace_type {
-  color: #6666FF
+  color: #729FCF
 }
 .ace_constant.ace_character.ace_escape {
-  color: #6666FF
+  color: #519F50
 }
 .ace_constant.ace_language {
   color: #B5B143          /* logicals and console messages */
@@ -68,7 +69,7 @@
   color: #B5B143          /* strings */
 }
 .ace_constant.ace_numeric {
-  color: #A61B95          /* numeric */
+  color: #FF55FF          /* numeric */
 }
 .ace_invalid {
   color: #FFFFFF;
@@ -89,7 +90,7 @@
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWMQFxf3ZXB1df0PAAdsAmERTkEHAAAAAElFTkSuQmCC) right repeat-y
 }
 .nocolor.ace_editor .ace_line span {
-  color: #fc6f09 !important;
+  color: #0FF25E !important;    /* console editing */
 }
 .ace_bracket {
   margin: 0 !important;
@@ -114,12 +115,12 @@
 .ace_console_error {
   background-color: #3F3E3D;
 }
-.ace_keyword.ace_operator {
-  color: #0FF25E !important;
+.ace_keyword.ace_operator {			/* Operators + = () [] */
+  color: #FFFFFF !important
 }
 .terminal {
   background-color: #000000;
-  color: #e6e1dc;
+  color: #E6E1DC;
   font-feature-settings: "liga" 0;
   position: relative;
   user-select: none;
@@ -684,13 +685,13 @@
    z-index: 1;
 }
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
-   background: #2f3941;
+   background: #101010;
    border: solid 1px #4e5c68 !important;
    color: #f0f0f0;
 }
 
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
-   background: rgba(255, 255, 255, 0.15);
+   background: rgba(255, 255, 255, 0.1);
    border: none
 }
